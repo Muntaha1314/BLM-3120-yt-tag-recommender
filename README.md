@@ -108,3 +108,13 @@ Predicted Tags: ['food', 'recipe', 'easy']
 <img width="1215" height="196" alt="Screenshot 2025-12-27 003143" src="https://github.com/user-attachments/assets/14b63b32-4d4d-4e3d-82a1-7d78dadb9982" />
 
 
+### Run the system
+- python -m src.main
+
+
+
+### The system will:
+
+- Train all models
+- Evaluate each model
+- Display results in the terminal
