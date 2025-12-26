@@ -28,10 +28,9 @@ def train_all_models():
         lambda tags: [t for t in tags if t in common_tags]
     )
 
-    # Remove empty-tag rows BEFORE vectorizing
     df = df[df["tag_list"].map(len) > 0].reset_index(drop=True)
 
-    # NOW vectorize (important!)
+   
     X, vectorizer = prepare_features(df)
 
     mlb = MultiLabelBinarizer()
