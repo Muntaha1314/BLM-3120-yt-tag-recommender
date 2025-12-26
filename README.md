@@ -181,3 +181,7 @@ This project demonstrates:
 - **University**: YILDIZ TECHNICAL UNIVERSITY 
 - **Year**: 2025
 
+
+
+<img width="1318" height="886" alt="Screenshot 2025-12-27 003111" src="https://github.com/user-attachments/assets/7bce768b-4f51-44e6-bf08-0ad1ca26e503" />
+
