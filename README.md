@@ -1,61 +1,56 @@
-YouTube Video Tag Recommendation System
+🎥 YouTube Tag Recommendation System
 
-Supervised Machine Learning Project
-By Muntaha Fadlelmola
+Multi-Label Machine Learning Project
 
+📌 Project Overview
 
+This project implements a YouTube tag recommendation system using machine learning.
+Given a video’s title and description, the system predicts the most relevant tags that could be assigned to the video.
 
-🎯 Project Objective
+The goal of this project is to demonstrate:
 
-Automatically recommend relevant YouTube video tags using text-based machine learning models.
+Text preprocessing and feature extraction
 
+Multi-label classification
 
+Use of multiple machine learning models
 
-🚀 Features
+Model comparison and evaluation using appropriate metrics
 
+The project is implemented in Python using scikit-learn, and all results are displayed directly in the terminal.
 
-Text preprocessing (stopwords, stemming, cleaning)
+🎯 Objectives
 
-TF-IDF vectorization
+Build a tag recommender using a public dataset
 
+Apply multiple machine learning models
 
+Compare model performance
 
+Evaluate predictions using Precision@K and Recall@K
 
-3 Supervised Learning Algorithms:
+Display real sample predictions as output
 
+📂 Dataset
 
-Naive Bayes
+Source: Kaggle (YouTube Trending Videos dataset)
 
-Decision Tree
+File used: videos.csv
 
-k-Nearest Neighbors (kNN)
+Features used:
 
-Tag prediction using multi-label classification
+title
 
-Precision@k & Recall@k evaluation
+description
 
+tags
 
+🔍 Dataset Preprocessing
 
+Tags are split into lists using "|" as a separator
 
-🧠 Algorithms
+Only the top 300 most frequent tags are kept to reduce sparsity and memory usage
 
+Videos without valid tags are removed
 
-Naive Bayes: Probabilistic tag prediction
-
-Decision Tree: Rule-based interpretable tagging
-
-kNN: Uses cosine similarity to find similar videos
-
-
-
-
-📊 Evaluation Metrics
-
-
-Precision@k
-
-Recall@k
-
-F1-Score
-
-Accuracy
+Limiting the number of tags is a standard approach in large-scale recommender systems.
