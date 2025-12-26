@@ -107,10 +107,30 @@ Predicted Tags: ['food', 'recipe', 'easy']
 
 <img width="1215" height="196" alt="Screenshot 2025-12-27 003143" src="https://github.com/user-attachments/assets/14b63b32-4d4d-4e3d-82a1-7d78dadb9982" />
 
+## 📁 Project Structure
+
+``text
+youtube-tag-recommender/
+├── data/
+│   └── videos.csv
+├── models/
+│   └── saved models (.pkl)
+├── src/
+│   ├── main.py
+│   ├── train_models.py
+│   ├── evaluate.py
+│   ├── vectorize.py
+│   └── preprocess.py
+├── README.md
+└── requirements.txt
+
 
 ### Run the system
-- python -m src.main
-
+1. Install Dependencies
+- `pip install -r requirements.txt`
+  
+2. Run the System
+- `python -m src.main`
 
 
 ### The system will:
@@ -118,3 +138,46 @@ Predicted Tags: ['food', 'recipe', 'easy']
 - Train all models
 - Evaluate each model
 - Display results in the terminal
+
+
+## 🧪 System Behavior
+
+The system will:
+
+- Train all models
+- Evaluate each model
+- Display results in the terminal
+
+### Experimental Observations
+
+- **Naive Bayes**: Trains quickly and performs well on sparse text data  
+- **Decision Tree**: Captures complex patterns but is slower  
+- **kNN**: Computationally expensive on high-dimensional TF-IDF data  
+- Model performance varies depending on tag frequency and text length  
+
+---
+
+## 🎓 Conclusion
+
+This project demonstrates:
+
+- Multi-label text classification  
+- Practical handling of large datasets  
+- Comparison of different machine learning models  
+- Proper evaluation techniques for recommender systems  
+
+**Possible Extensions:**
+
+- Deep learning models  
+- Word embeddings  
+- Real-time tag prediction APIs  
+
+---
+
+## 🧾 Author
+
+- **Student Name**: MUNTAHA FADLELMOLA 
+- **Course**: BLM 3120 
+- **University**: YILDIZ TECHNICAL UNIVERSITY 
+- **Year**: 2025
+
